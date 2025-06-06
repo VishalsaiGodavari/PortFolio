@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishal Sai Godavari | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d5b6c5.js" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg-color: #FDF6F0;
+      --text-color: #3B3B3B;
+      --accent-color: #FFB385;
+      --link-color: #A66DD4;
+      --section-bg: rgba(255, 255, 255, 0.9);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fce38a, #f38181, #fceabb, #a8edea);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      color: var(--text-color);
+      overflow-x: hidden;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--text-color);
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #222;
+    }
+
+    .photo-frame {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 1rem auto;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+      gap: 1.5rem;
+    }
+
+    .socials a {
+      color: var(--link-color);
+      font-size: 2rem;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .socials a:hover {
+      transform: scale(1.3);
+      color: var(--accent-color);
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      background: var(--section-bg);
+      margin: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+      transition: transform 0.4s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-10px);
+    }
+
+    .section h2 {
+      color: var(--accent-color);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: var(--text-color);
+    }
+
+    .resume-link {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .resume-link a {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: var(--link-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .resume-link a:hover {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    /* #Cont{
+      transform: scale(1.5);
+      transform-origin: top center;
+    } */
+
+    @keyframes fadeInDown {
+      0% {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="Cont">
+  <header>
+    <div class="photo-frame">
+      <img src="ME.jpeg" alt="Your Photo">
+    </div>
+    <h1>Vishal Sai Godavari - Software Developer</h1>
+    <p>Innovating solutions through code | Full-Stack Developer | AI & ML Enthusiast</p>
+  </header>
+
+  <div class="socials">
+    <a href="mailto:vishalsai_godavari@srmap.edu.in" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/VishalSaiGodavari" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/vishalsaigodavari" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <div class="resume-link">
+    <a href="Resume.html" target="_blank">View My Resume</a>
+  </div>
+
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a B.Tech Computer Science student at SRMAP with a strong foundation in Python, C++, and full-stack development. I'm passionate about solving real-world problems through technology. My journey started with curiosity, evolved into purpose, and continues through projects in image processing, web development, and AI.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Experience</h2>
+    <p>
+      <strong>Image Processing Intern, SRM University (Feb 2025 – Apr 2025)</strong><br>
+      • Worked on 3D image processing using Open3D and ZED2i Camera.<br>
+      • Detected potholes via edge detection and real-time depth analysis using OpenCV.<br><br>
+
+      <strong>Campus Placement Coordinator, SRM University</strong><br>
+      • Managed company HR logistics and student coordination during placement drives.<br>
+      • Honed leadership, organization, and stakeholder communication skills.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Projects</h2>
+    <p>
+      <strong>E-Book Website (Full Stack)</strong><br>
+      Integrated audio-books for visually impaired users with TTS using Flask & FastAPI.<br><br>
+
+      <strong>AI-Powered Computational Calculator (Python)</strong><br>
+      Image-to-text gesture recognition calculator that solves math/physics using PIL.<br><br>
+
+      <strong>Library Management System</strong>  
+      (<a href="https://vishal-gvs.github.io/DBMSProject/" target="_blank">View Project</a>)<br>
+      SQL-based database project managing books, users, and secure transactions.<br><br>
+
+      <strong>Smart Traffic Control System</strong><br>
+      Real-time traffic control using C++ and OOP concepts based on vehicle density.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <p>
+      <strong>Frontend:</strong> HTML5, CSS3, Bootstrap, JavaScript (ES6+), React.js<br>
+      <strong>Backend:</strong> PHP, Python (Flask, FastAPI), Node.js (Beginner)<br>
+      <strong>Databases:</strong> MySQL, SQL<br>
+      <strong>Tools:</strong> Git, GitHub, VS Code, OpenCV, Open3D, Pillow<br>
+      <strong>Concepts:</strong> REST APIs, OOP, MVC, CRUD, Agile Development<br>
+      <strong>Soft Skills:</strong> Communication, Problem Solving, Teamwork, Leadership
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Achievements & Hackathons</h2>
+    <p>
+      • CodeChef Long Challenge – Ranked Top 10% in May 2025<br>
+      • Designed inclusive audio-book features for visually impaired users
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Vishal Sai Godavari. All rights reserved.
+  </footer>
+
+  <script>
+    document.querySelectorAll('.section').forEach(section => {
+      section.addEventListener('mouseover', () => {
+        section.style.boxShadow = '0 0 20px rgba(255, 179, 133, 0.4)';
+      });
+      section.addEventListener('mouseout', () => {
+        section.style.boxShadow = '0 0 15px rgba(0, 0, 0, 0.08)';
+      });
+    });
+  </script>
+</div>
+</body>
+</html>
