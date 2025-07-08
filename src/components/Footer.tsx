@@ -1,0 +1,1 @@
+const Footer = () => <footer><p>© 2025 Vishal Sai Godavari</p></footer>; export default Footer;

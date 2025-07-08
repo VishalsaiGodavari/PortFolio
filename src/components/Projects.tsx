@@ -1,0 +1,1 @@
+const Projects = () => <section><h2>Projects</h2><p>Showcasing key projects...</p></section>; export default Projects;

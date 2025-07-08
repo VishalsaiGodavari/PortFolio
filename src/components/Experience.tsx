@@ -1,0 +1,1 @@
+const Experience = () => <section><h2>Experience</h2><p>Internships and leadership roles...</p></section>; export default Experience;

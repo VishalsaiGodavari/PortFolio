@@ -1,0 +1,1 @@
+const Hero = () => <section><h1>Vishal Sai Godavari</h1><p>Aspiring Software Developer</p></section>; export default Hero;
